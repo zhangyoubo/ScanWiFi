@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC210F0E1D586B5F00654BE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC210F0D1D586B5F00654BE3 /* main.m */; };
+		CC210F111D586B5F00654BE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC210F101D586B5F00654BE3 /* AppDelegate.m */; };
+		CC210F141D586B5F00654BE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC210F131D586B5F00654BE3 /* ViewController.m */; };
+		CC210F171D586B5F00654BE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC210F151D586B5F00654BE3 /* Main.storyboard */; };
+		CC210F191D586B5F00654BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC210F181D586B5F00654BE3 /* Assets.xcassets */; };
+		CC210F1C1D586B5F00654BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC210F1A1D586B5F00654BE3 /* LaunchScreen.storyboard */; };
+		CC437FE11D5B11D100BDB84A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC437FE01D5B11D100BDB84A /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC210F091D586B5F00654BE3 /* 扫描WI-FI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "扫描WI-FI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC210F0D1D586B5F00654BE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC210F0F1D586B5F00654BE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC210F101D586B5F00654BE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC210F121D586B5F00654BE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC210F131D586B5F00654BE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC210F161D586B5F00654BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC210F181D586B5F00654BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC210F1B1D586B5F00654BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC210F1D1D586B5F00654BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC437FE01D5B11D100BDB84A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CC6F84301DB4B65500640C36 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		CC6F84311DB4B65500640C36 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC210F061D586B5F00654BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC437FE11D5B11D100BDB84A /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC210F001D586B5F00654BE3 = {
+			isa = PBXGroup;
+			children = (
+				CC437FE01D5B11D100BDB84A /* SystemConfiguration.framework */,
+				CC210F0B1D586B5F00654BE3 /* 扫描WI-FI */,
+				CC210F0A1D586B5F00654BE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC210F0A1D586B5F00654BE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC210F091D586B5F00654BE3 /* 扫描WI-FI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC210F0B1D586B5F00654BE3 /* 扫描WI-FI */ = {
+			isa = PBXGroup;
+			children = (
+				CC210F0F1D586B5F00654BE3 /* AppDelegate.h */,
+				CC210F101D586B5F00654BE3 /* AppDelegate.m */,
+				CC210F121D586B5F00654BE3 /* ViewController.h */,
+				CC210F131D586B5F00654BE3 /* ViewController.m */,
+				CC210F151D586B5F00654BE3 /* Main.storyboard */,
+				CC210F181D586B5F00654BE3 /* Assets.xcassets */,
+				CC210F1A1D586B5F00654BE3 /* LaunchScreen.storyboard */,
+				CC210F1D1D586B5F00654BE3 /* Info.plist */,
+				CC210F0C1D586B5F00654BE3 /* Supporting Files */,
+			);
+			path = "扫描WI-FI";
+			sourceTree = "<group>";
+		};
+		CC210F0C1D586B5F00654BE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC210F0D1D586B5F00654BE3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC210F081D586B5F00654BE3 /* 扫描WI-FI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC210F201D586B5F00654BE3 /* Build configuration list for PBXNativeTarget "扫描WI-FI" */;
+			buildPhases = (
+				CC210F051D586B5F00654BE3 /* Sources */,
+				CC210F061D586B5F00654BE3 /* Frameworks */,
+				CC210F071D586B5F00654BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "扫描WI-FI";
+			productName = "扫描WI-FI";
+			productReference = CC210F091D586B5F00654BE3 /* 扫描WI-FI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC210F011D586B5F00654BE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "张友波";
+				TargetAttributes = {
+					CC210F081D586B5F00654BE3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CC210F041D586B5F00654BE3 /* Build configuration list for PBXProject "扫描WI-FI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = CC210F001D586B5F00654BE3;
+			productRefGroup = CC210F0A1D586B5F00654BE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC210F081D586B5F00654BE3 /* 扫描WI-FI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC210F071D586B5F00654BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC210F1C1D586B5F00654BE3 /* LaunchScreen.storyboard in Resources */,
+				CC210F191D586B5F00654BE3 /* Assets.xcassets in Resources */,
+				CC210F171D586B5F00654BE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC210F051D586B5F00654BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC210F141D586B5F00654BE3 /* ViewController.m in Sources */,
+				CC210F111D586B5F00654BE3 /* AppDelegate.m in Sources */,
+				CC210F0E1D586B5F00654BE3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC210F151D586B5F00654BE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC210F161D586B5F00654BE3 /* Base */,
+				CC6F84301DB4B65500640C36 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC210F1A1D586B5F00654BE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC210F1B1D586B5F00654BE3 /* Base */,
+				CC6F84311DB4B65500640C36 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC210F1E1D586B5F00654BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC210F1F1D586B5F00654BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC210F211D586B5F00654BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "扫描WI-FI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lianyun.--WI-FI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC210F221D586B5F00654BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "扫描WI-FI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lianyun.--WI-FI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC210F041D586B5F00654BE3 /* Build configuration list for PBXProject "扫描WI-FI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC210F1E1D586B5F00654BE3 /* Debug */,
+				CC210F1F1D586B5F00654BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC210F201D586B5F00654BE3 /* Build configuration list for PBXNativeTarget "扫描WI-FI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC210F211D586B5F00654BE3 /* Debug */,
+				CC210F221D586B5F00654BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC210F011D586B5F00654BE3 /* Project object */;
+}
